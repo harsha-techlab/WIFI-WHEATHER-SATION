@@ -6,7 +6,7 @@ An ESP32-S3-based IoT weather and environmental monitoring station designed to m
 
 EDGE WEATHER uses an ESP32-S3-WROOM-1U as the main controller and combines multiple sensors with a 0.96" SSD1306 OLED display.
 
-The system monitors:
+The system monitors:------------------------------------------------*-*--*******************************************************************************************************************************************************************************
 
 - 🌡️ Temperature
 - 💧 Humidity
@@ -74,6 +74,22 @@ The OLED provides multiple monitoring pages:
 The display uses a centered layout with page indicators and automatically enters standby after a period of inactivity.
 
 Touch input or detected motion wakes the display.
+
+## 📸 Project Preview
+
+<p align="center">
+  <img src="images/oled-display.jpg" alt="EDGE WEATHER OLED Display" width="700">
+</p>
+
+WIFI-WEATHER-STATION/
+├── code/
+│   └── edge_weather.ino
+├── docs/
+│   └── Wifi-weather-station.pdf
+├── images/
+│   └── oled-display.jpg
+└── README.md
+
 
 ## ⚡ Alert System
 
