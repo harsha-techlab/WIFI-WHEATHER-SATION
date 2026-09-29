@@ -81,6 +81,10 @@ Touch input or detected motion wakes the display.
   <img src="images/oled-display.jpg" alt="EDGE WEATHER OLED Display" width="700">
 </p>
 
+## 📁 Repository Structure
+
+```text
+
 WIFI-WEATHER-STATION/
 ├── code/
 │   └── edge_weather.ino
@@ -90,6 +94,7 @@ WIFI-WEATHER-STATION/
 │   └── oled-display.jpg
 └── README.md
 
+```
 
 ## ⚡ Alert System
 
